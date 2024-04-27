@@ -60,3 +60,4 @@ for csv_file in csv_files:
 merge_path = './merge_out'
 os.makedirs(merge_path, exist_ok=True)
 merged_data.to_csv('./merge_out/merged_data.csv', index=False)
+
